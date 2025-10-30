@@ -1,0 +1,23 @@
+
+Lmod is automatically replacing "cce/16.0.1" with "gcc/11.2.0".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.4.0" with "PrgEnv-gnu/8.4.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.27
+
+HPL ERROR from process # 0, on line 419 of function HPL_pdinfo:
+>>> Need at least 512 processes for these tests <<<
+
+HPL ERROR from process # 0, on line 621 of function HPL_pdinfo:
+>>> Illegal input in file HPL.dat. Exiting ... <<<
+
+srun: error: nid005086: tasks 0-27,29-37,39,41-46,48-87,89-105,107-127: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=11260739.0
+slurmstepd: error: *** STEP 11260739.0 ON nid005086 CANCELLED AT 2025-10-21T11:39:27 ***
+srun: error: nid005086: task 106: Terminated
+srun: error: nid005086: tasks 47,88: Terminated
+srun: error: nid005086: tasks 28,38,40: Terminated
+srun: Force Terminated StepId=11260739.0

@@ -1,0 +1,33 @@
+
+Lmod is automatically replacing "cce/16.0.1" with "gcc/11.2.0".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.4.0" with "PrgEnv-gnu/8.4.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.27
+
+HPL ERROR from process # 0, on line 419 of function HPL_pdinfo:
+>>> Need at least 1024 processes for these tests <<<
+
+HPL ERROR from process # 0, on line 621 of function HPL_pdinfo:
+>>> Illegal input in file HPL.dat. Exiting ... <<<
+
+srun: error: nid006141: tasks 512-639: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=11325486.0
+slurmstepd: error: *** STEP 11325486.0 ON nid006120 CANCELLED AT 2025-10-26T17:58:23 ***
+srun: error: nid006138: tasks 128-133,135-144,146-169,171-172,174-230,232-240,242-246,248-255: Exited with exit code 1
+srun: error: nid006138: task 134: Terminated
+srun: error: nid006120: tasks 0-39,41,43-44,46-72,74-115,118-119,121-127: Exited with exit code 1
+srun: error: nid006120: tasks 40,45,73,120: Terminated
+srun: error: nid006120: tasks 42,116-117: Terminated
+srun: error: nid006138: tasks 145,170,173,231,241,247: Terminated
+srun: error: nid006139: tasks 256-383: Terminated
+srun: error: nid006143: tasks 768-895: Terminated
+srun: error: nid006140: tasks 384-426,428-432,434-453,455-474,476-508,511: Terminated
+srun: error: nid006142: tasks 640-767: Terminated
+srun: error: nid006140: task 427: Terminated
+srun: error: nid006140: tasks 475,510: Terminated
+srun: error: nid006140: tasks 433,454,509: Terminated
+srun: Force Terminated StepId=11325486.0

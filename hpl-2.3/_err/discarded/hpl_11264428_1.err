@@ -1,0 +1,22 @@
+
+Lmod is automatically replacing "cce/16.0.1" with "gcc/11.2.0".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.4.0" with "PrgEnv-gnu/8.4.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.27
+
+slurmstepd: error: Detected 2 oom-kill event(s) in StepId=11264428.0. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: nid004398: tasks 16,100: Out Of Memory
+srun: launch/slurm: _step_signal: Terminating StepId=11264428.0
+slurmstepd: error: *** STEP 11264428.0 ON nid004398 CANCELLED AT 2025-10-21T16:50:44 ***
+srun: error: nid004439: tasks 768-895: Terminated
+srun: error: nid004444: tasks 896-1023: Terminated
+srun: error: nid004417: tasks 256-383: Terminated
+srun: error: nid004432: tasks 512-639: Terminated
+srun: error: nid004429: tasks 384-511: Terminated
+srun: error: nid004433: tasks 640-767: Terminated
+srun: error: nid004416: tasks 128-255: Terminated
+srun: Force Terminated StepId=11264428.0
