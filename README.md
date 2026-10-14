@@ -1,7 +1,9 @@
 # CIUK Student Cluster Challenge 2025 Qualifying Round - EPCC
 
-This repository contains the results obtained from benchmarking the **Archer2** supercomputer at the University of Edinburgh, as part of the qualifying round of **CIUK Student Cluster Challenge 2025**.
+This repository contains the results obtained from benchmarking the *ARCHER2* supercomputer at the University of Edinburgh, as part of the qualifying round of **CIUK Student Cluster Challenge 2025**. This challenge was set by **EPCC**.
 [Ewan Hallatt (@ewanh26)](https://github.com/ewanh26) did the runs, analysis and presentation for the HPCG benchmark, and [Arthur Baverstock (@SnomFish)](https://github.com/SnomFish) did the same for the HPL benchmark.
+
+For the EPCC qualifier challenge, this analysis was awarded **1st place** out of 18 team submissions. The Beariables (University of Birmingham) team then went on to win the in-person finals of the CIUK Student Cluster Challenge 2025.
 
 ## Presentations and Analysis
 
